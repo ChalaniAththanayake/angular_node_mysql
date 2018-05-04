@@ -1,0 +1,41 @@
+.home:hover{
+    background-color: red;
+    color: black;
+}
+.about-us:hover{
+    background-color: white;
+}
+.about-us-link:hover{
+    color: black !important;
+}
+
+.contact:hover{
+    background-color: white;
+}
+.contact-link:hover{
+    color: black !important;
+}
+.services:hover{
+    background-color: white
+}
+.services-link:hover{
+    color: black !important;
+}
+.gallery:hover{
+   background-color: white;
+}
+.gallery-link:hover{
+    color: black !important;
+}
+.products:hover{
+    background-color: white;
+}
+.products-link:hover{
+    color: black !important;
+}
+.login:hover{
+    background-color: white;
+}
+.login-link:hover{
+    color: black !important;
+}
