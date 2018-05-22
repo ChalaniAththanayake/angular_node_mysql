@@ -16,7 +16,6 @@ export class LoginmanagementService {
 
   login(data) {
     return this.http.post(this.baseUrl+'/login', data);
-    console.log('zzzzzzz', data);
   }
 
 }

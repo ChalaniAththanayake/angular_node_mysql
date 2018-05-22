@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
-import { AppRoutingModule } from './app.routing.module';
+import { AppRoutingModule } from './app.module.routin';
 import {HttpModule} from '@angular/http';
+import {PopoverModule} from "ngx-popover";
 
 
 import { AppComponent } from './app.component';
@@ -18,6 +19,7 @@ import { ProductsComponent } from './products/products.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginmanagementService } from './_services/loginmanagement.service';
+import { ProfileComponent } from './profile/profile.component';
 
 
 @NgModule({
@@ -33,13 +35,15 @@ import { LoginmanagementService } from './_services/loginmanagement.service';
     AboutusComponent,
     ProductsComponent,
     GalleryComponent,
-    ContactComponent
+    ContactComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    PopoverModule
   ],
   providers: [LoginmanagementService],
   

@@ -60,8 +60,12 @@ export class SignupComponent implements OnInit {
             this.router.navigate(['/login']);
           }
         });
+        
       }
 
     }
+  }
+  signin(){
+    this.router.navigate(['/login']);
   }
 }

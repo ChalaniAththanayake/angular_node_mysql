@@ -39,3 +39,6 @@
 .login-link:hover{
     color: black !important;
 }
+.table{
+    margin: 0;
+}
